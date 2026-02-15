@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🍽️ Mess Management System</h1>
+
+<div class="form">
+  <input type="text" id="name" placeholder="Name">
+  <input type="number" id="room" placeholder="Room No">
+  
+  <select id="plan">
+    <option value="Veg">Veg</option>
+    <option value="Non-Veg">Non-Veg</option>
+    <option value="Special">Special</option>
+  </select>
+
+  <button id="submitBtn">Add Member</button>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Room No</th>
+      <th>Plan</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="memberList"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
